@@ -70,5 +70,5 @@ function startCountdown() {
       collection.htmlHours.textContent = String(hours).padStart(2, '0');
       collection.htmlMinutes.textContent = String(minutes).padStart(2, '0');
       collection.htmlSeconds.textContent = String(seconds).padStart(2, '0');
-    }, 1000);
+    }, 0);
 }
